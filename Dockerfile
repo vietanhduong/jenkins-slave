@@ -3,7 +3,7 @@ LABEL authors="vietanhs0817@gmail.com"
 
 ENV DOCKER_VERSION=20.10.9
 ENV TERRAFORM_VERSION=1.1.3
-ENV VC_VERSION=0.2.3
+ENV VC_VERSION=0.2.5
 
 USER root
 RUN apt-get update -qq && apt-get install -y -qq --no-install-recommends \
